@@ -1,0 +1,16 @@
+{
+  "name": "cluster-example",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "https://github.com/junaid-systemsltd/cluster-nodejs.git",
+  "author": "Junaid Sikander",
+  "license": "MIT",
+  "scripts": {
+    "serial": "node task_serial.js",
+    "cluster": "node task_clustered.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
